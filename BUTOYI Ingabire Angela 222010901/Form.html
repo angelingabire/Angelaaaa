@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        body {
+            background-color: skyblue;
+            color: green;
+            font: normal 16px;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<style>
+    body{ background-color: darkgrey;
+    color:black; 
+    font: normal 16px;
+    margin:20px;
+}
+</style>
+
+<body>
+	  <p>
+        <a href="./home.html">HOME</a>
+        <a href="./about.html">ABOUT</a>
+        <a href="./contact.html">CONTACT</a>
+        <a href="./services.html">SERVICES</a>
+        <a href="./Form.html">FORM</a>
+        <a href="./Table.html">TABLE</a>
+        <a href="./Mybook.html">MYBOOK</a>
+    </p>
+    <marquee>welcome</marquee>
+    <hr>
+    <h1>Form Example</h1>
+    <center>
+        <form action="#" method="POST">
+            <label for="id">ID</label>
+            <input type="number" name="id" id="id"><br>
+
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname"><br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname"><br>
+
+            <label for="gender">Gender</label>
+            <input type="text" name="gender" id="gender"><br>
+
+            <label for="date">DOB</label>
+            <input type="date" name="date" id="date"><br>
+
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age"><br>
+
+            <label for="department">Department</label>
+            <select name="department" id="department">
+                <option value="BIT">BIT</option>
+                <option value="CAS">CAS</option>
+                <option value="ACC">ACC</option>
+                <option value="FRST">FRST</option>
+                <option value="FIN">FIN</option>
+                <option value="DS">DS</option>
+            </select><br>
+
+            <label for="lv">Level</label>
+            <input type="text" name="lv" id="lv"><br>
+
+            <label for="gr">Group</label>
+            <input type="text" name="gr" id="gr"><br>
+
+            <label>Sex</label>
+            <input type="radio" name="sex" value="male" checked>Male
+            <input type="radio" name="sex" value="female">Female<br>
+
+            <input type="submit" name="sbt" value="SUBMIT">
+            <input type="reset" name="cnl" value="CANCEL"><br>
+        </form>
+    </center>
+</body>
+</html>

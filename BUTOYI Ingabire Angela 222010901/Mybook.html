@@ -1,0 +1,162 @@
+<html>
+<head>
+	<title>Mybook</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<body>
+		<p>
+        <a href="./home.html">HOME</a>
+        <a href="./about.html">ABOUT</a>
+        <a href="./contact.html">CONTACT</a>
+        <a href="./services.html">SERVICES</a>
+        <a href="./Form.html">FORM</a>
+        <a href="./Table.html">TABLE</a>
+        <a href="./Mybook.html">MYBOOK</a>
+    </p>
+	<h1>DATABASE AND JAVA WITH BANKING MANAGEMENT SYSTEM</h1>
+	<ol><h2><u><li>DATABASE</li></u></h2>
+		<p>Database name used: <b>banking_management_system.</b></p>
+		<ul type="square"><h3><u><i><li>Tables</li></i></u></h3>
+
+			
+			<li><b>account Table</b></li>
+
+			<p>account Table This table stores and manages detailed information about individual customer accounts, such as their account identification, customer information, account balance, transaction history, account status and account type</p> </br>
+
+
+			<li><b>branch table.</b></li>
+
+			<p>branch Table This table stores information about the different branches of a bank . This includes data such as the branch name, branch code, address, contact information, manager details, operating hours and any other relevant information.</p></br>
+
+			<li><b>customer table </b></li>
+
+			<p>customer Table This table contains information about the customers of the bank. This includes data such as customer name ,address, contact information ,account details, transaction history and any other relevant information.</p></br>
+
+            <li><b>employee table </b></li>
+
+			<p>employee table  This table records information about the bank’s employees. This includes data such as employee name, employee id, contact information, job title, department, salary, and any other relevant information related to the employees working at the bank
+
+			<li><b>transaction table </b></li>
+
+			<p>transaction table  This table plays a crucial role in recording all financial transactions that occur within the bank. The table stores details about all types of transactions ,such as deposits ,withdrawals ,transfers, payments, and other financial activities conducted by the bank’s customers.
+
+</p></br>
+
+			
+
+
+			              <h3><u><i><li>Attributes</li></i></u></h3>
+
+
+                    <b>Attributes of account Table</b></br>
+
+    Here are the descriptions or purposes of the attributes/columns used in account table:</br>
+
+
+<p><b><i>account_Id:</i></b> The column which are represents  id of payroll .</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of payroll table.</br></p>
+
+<p><b><i>account_number(primary key):</i></b>  the column which are represents Employee _id.(primary key)</p></br>
+
+<p><b><i>account_type(varchar):</i></b> The column which are represents  the date of starting period.</br></p>
+
+<p><b><i>balance_amount(varchar):</i></b> The columns which are represents  the date of ending period.</br></p>
+
+<p><b><i>customer_id(varchar):</i></b> The columns which are represents  the date of ending period.</br></p>
+
+
+
+                    <b>Attributes of branch Table</b></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in tax table:</br>
+
+
+
+<p><b><i>branch_Id(primary key):</i></b> The column which are represents id of tax payer which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of tax table.</p></br>
+
+<p><b><i>branch_name(varchar):</i></b> The column which are represents  name of tax to be paid.</p></br>
+
+<p><b><i>Address(varchar):</i></b> The column which are represents  the rate of tax to be paid.</p></br>
+
+
+
+
+                    <b>Attributes of customer Table</b></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in Time tracking table:</br>
+
+<p><b><i>customer_name(primary key):</i></b> The column which are represents time id  which is unique value called PRIMARY KEY.  It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of time tracking table.</p></br>
+
+
+<p><b><i>address(primary key):</i></b> The column which are represents id of employee which  is references to the product  table value called FOREIGN KEY.  It is a column of time tracking table  which has relationship between time tracking table.</p></br>
+
+<p><b><i>telephone(varchar):</i></b> The column which are represents  the time employee entered.</p></br> 
+
+<p><b><i>branch(varchar):</i></b> The column which are represents the time employee loged out</p></br>
+
+
+
+                   <b>Attributes of employee Table</b></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in users table:</br>
+
+
+<p><b><i>employee_ id (primary key):</i></b> The column which are represents id of users which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of users table.</p></br>
+
+
+<p><b><i>employee_name(varchar):</i></b> The column which are represents name of the users.</p></br>
+
+<p><b><i>email(varchar):</i></b> The column which are represents the password of users.</p></br>
+
+
+<p><b>phone number:</i></b> The column which are represents  types of users.</p></br>
+
+
+                  <b>Attributes of transaction Table</b></br>
+
+                    Here are the descriptions or purposes of the attributes/columns used in users table:</br>
+
+
+<p><b><i>transaction_ id (primary key):</i></b> The column which are represents id of users which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of users table.</p></br>
+
+
+<p><b><i>transaction_type(varchar):</i></b> The column which are represents name of the users.</p></br>
+
+<p><b><i>amount(varchar):</i></b> The column which are represents the password of users.</p></br>
+
+<p><b><i>transaction_date(varchar):</i></b> The column which are represents name of the users.</p></br>
+
+
+
+<p><b>User_type:</i></b> The column which are represents  types of users.</p></br>
+
+
+         </ul>
+		<h2><u><li>JAVA</li></u></h2>
+		
+		<ul type="square"><h3><u><i><li>Description</li></i></u></h3>
+
+			 Introduction
+In this chapter we will be describing database of the system tables inside that database and the way those tables were created in, addition on that in this chapter we will show table views from original tables, the relationship between created tables that are in this database.
+In database of this system be ready to look at operation used on some table in this database so that you can know what to and what not to do on given entity.
+Note that to develop this system database there are some materials which were used so that we can get on final output of system as was described in chapter one “system analyses”. Among these the important one is xampp saver MySQL, so now let together navigate this database system.
+
+
+			              <h3><u><i><li>Forms and Images</li></i></u></h3>
+
+<b><i>Product Form</i></b></br>
+<img src="BRE v LIL.png" width=900 height=200>
+
+
+
+        </ul>
+		
+	</ol>
+	<marquee><u><i><h2 style="color: white;">Prepared By</i></u>:   IRADUKUNDA Jean Nepomuscene</h2></marquee>
+	</body>
+	</html>
